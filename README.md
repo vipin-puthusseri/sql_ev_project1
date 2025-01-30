@@ -29,5 +29,3 @@ The `ev_analysis.sql` file contains the SQL queries used for the analysis.  The 
 2.  Import the `Electric_vehicle` data (or your equivalent dataset) into your database.
 3.  Open a SQL client (e.g., SQL Server Management Studio, DBeaver) and connect to your database.
 4.  Open and execute the `ev_analysis.sql` script.
-
-## Project Structure
