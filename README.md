@@ -1,4 +1,33 @@
-# sql_ev_project1
-Sql project on analysing electronic vehicle data from the US.
+# Electric Vehicle Data Analysis Project
 
-This project explores electric vehicle (EV) trends and characteristics using SQL analysis of a vehicle dataset.  It investigates key aspects of the EV market, including overall EV adoption, popular manufacturers and models, geographic distribution across states, and the crucial element of electric range.  The analysis categorizes EVs by range (short, medium, and long), calculates average range by make and model, and ranks models by range.  Temporal analysis tracks the cumulative growth of EV registrations over time.  The project also uses conditional aggregation to differentiate between Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) and calculates the percentage of EVs within each range category.  Finally, it identifies the most popular EV model in each state.  The SQL queries are designed for SQL Server but can be adapted for other database systems.  This project provides a comprehensive overview of EV market dynamics and offers a foundation for further analysis and visualization.
+This project performs exploratory data analysis on a dataset of electric vehicles (EVs) using SQL.  The analysis covers various aspects of the EV market, including popular makes and models, range categorization, and geographic distribution.
+
+## Project Overview
+
+The SQL queries in this project analyze a dataset of electric vehicles to gain insights into the EV market.  The analysis focuses on:
+
+* **Overall EV Count:** Determining the total number of electric vehicles in the dataset.
+* **EV Types:** Identifying the different types of electric vehicles (e.g., BEV, PHEV).
+* **Popular Makes and Models:**  Identifying the top car makes and models based on frequency.
+* **Geographic Distribution:** Analyzing the distribution of EVs across different states.
+* **Range Analysis:** Examining the electric range of EVs, including average range by make and model, ranking models by range, and categorizing EVs into short, medium, and long-range categories.
+* **Time-Based Analysis:**  Calculating the cumulative sum of EVs registered over time.
+* **Conditional Aggregation:** Counting BEV and PHEV vehicles separately.
+* **Percentage Calculation:** Determining the percentage of EVs in each range category.
+* **Popular Model by State:** Identifying the most popular EV model in each state.
+
+## Dataset
+
+The dataset used in this project is a table named `Electric_vehicle` with relevant columns such as `Make`, `Model`, `Electric_Vehicle_Type`, `State`, `Electric_Range`, and `Model_Year`. 
+## SQL Queries
+
+The `ev_analysis.sql` file contains the SQL queries used for the analysis.  The queries are designed for SQL Server syntax.  Adaptations might be needed for other SQL databases.
+
+## Running the Queries
+
+1.  Ensure you have a SQL Server instance (or another compatible database) running and accessible.
+2.  Import the `Electric_vehicle` data (or your equivalent dataset) into your database.
+3.  Open a SQL client (e.g., SQL Server Management Studio, DBeaver) and connect to your database.
+4.  Open and execute the `ev_analysis.sql` script.
+
+## Project Structure
