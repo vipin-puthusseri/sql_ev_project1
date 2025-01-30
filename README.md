@@ -22,10 +22,3 @@ The dataset used in this project is a table named `Electric_vehicle` with releva
 ## SQL Queries
 
 The `ev_analysis.sql` file contains the SQL queries used for the analysis.  The queries are designed for SQL Server syntax.  Adaptations might be needed for other SQL databases.
-
-## Running the Queries
-
-1.  Ensure you have a SQL Server instance (or another compatible database) running and accessible.
-2.  Import the `Electric_vehicle` data (or your equivalent dataset) into your database.
-3.  Open a SQL client (e.g., SQL Server Management Studio, DBeaver) and connect to your database.
-4.  Open and execute the `ev_analysis.sql` script.
