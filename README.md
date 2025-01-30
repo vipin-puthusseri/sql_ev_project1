@@ -1,2 +1,4 @@
 # sql_ev_project1
-Sql project on analysing Electronic Vehicle data from the US.
+Sql project on analysing electronic vehicle data from the US.
+
+This project explores electric vehicle (EV) trends and characteristics using SQL analysis of a vehicle dataset.  It investigates key aspects of the EV market, including overall EV adoption, popular manufacturers and models, geographic distribution across states, and the crucial element of electric range.  The analysis categorizes EVs by range (short, medium, and long), calculates average range by make and model, and ranks models by range.  Temporal analysis tracks the cumulative growth of EV registrations over time.  The project also uses conditional aggregation to differentiate between Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) and calculates the percentage of EVs within each range category.  Finally, it identifies the most popular EV model in each state.  The SQL queries are designed for SQL Server but can be adapted for other database systems.  This project provides a comprehensive overview of EV market dynamics and offers a foundation for further analysis and visualization.
